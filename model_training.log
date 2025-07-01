@@ -1,0 +1,473 @@
+2025-06-21 20:08:27,551 - INFO - Iniciando treinamento para 2025-06-21 20:08:27
+2025-06-21 20:08:27,598 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprrbvr2rl/8dhmv6kz.json
+2025-06-21 20:08:27,619 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprrbvr2rl/j15nmkfd.json
+2025-06-21 20:08:27,619 - DEBUG - idx 0
+2025-06-21 20:08:27,619 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:08:27,619 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=73136', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprrbvr2rl/8dhmv6kz.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprrbvr2rl/j15nmkfd.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprrbvr2rl/prophet_model5_we77xs/prophet_model-20250621200827.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:08:27,619 - INFO - Chain [1] start processing
+2025-06-21 20:08:27,760 - INFO - Chain [1] done processing
+2025-06-21 20:08:27,766 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 20:29:52,686 - INFO - Iniciando treinamento para 2025-06-21 20:29:52
+2025-06-21 20:29:52,727 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprw13txuk/89ntn2hr.json
+2025-06-21 20:29:52,753 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprw13txuk/pz8a258r.json
+2025-06-21 20:29:52,754 - DEBUG - idx 0
+2025-06-21 20:29:52,754 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:29:52,754 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=81785', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprw13txuk/89ntn2hr.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprw13txuk/pz8a258r.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmprw13txuk/prophet_model8vn55ytv/prophet_model-20250621202952.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:29:52,754 - INFO - Chain [1] start processing
+2025-06-21 20:29:53,890 - INFO - Chain [1] done processing
+2025-06-21 20:29:53,896 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 20:32:01,972 - INFO - Iniciando treinamento para 2025-06-21 20:32:01
+2025-06-21 20:32:02,018 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/vr1a9864.json
+2025-06-21 20:32:02,041 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/f0wdsljz.json
+2025-06-21 20:32:02,042 - DEBUG - idx 0
+2025-06-21 20:32:02,042 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:02,042 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=68449', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/vr1a9864.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/f0wdsljz.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/prophet_modelr0utz9vx/prophet_model-20250621203202.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:02,042 - INFO - Chain [1] start processing
+2025-06-21 20:32:02,394 - INFO - Chain [1] done processing
+2025-06-21 20:32:02,509 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.73%
+2025-06-21 20:32:02,538 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/te61ytl4.json
+2025-06-21 20:32:02,573 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/ip_xn3wk.json
+2025-06-21 20:32:02,574 - DEBUG - idx 0
+2025-06-21 20:32:02,574 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:02,574 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=35963', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/te61ytl4.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/ip_xn3wk.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/prophet_modelkgh00jaa/prophet_model-20250621203202.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:02,574 - INFO - Chain [1] start processing
+2025-06-21 20:32:02,843 - INFO - Chain [1] done processing
+2025-06-21 20:32:02,952 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 3.27%
+2025-06-21 20:32:02,984 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/l53z9x8_.json
+2025-06-21 20:32:03,020 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/71sz6j_m.json
+2025-06-21 20:32:03,021 - DEBUG - idx 0
+2025-06-21 20:32:03,021 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:03,021 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=54732', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/l53z9x8_.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/71sz6j_m.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/prophet_modelxxp55u9z/prophet_model-20250621203203.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:03,021 - INFO - Chain [1] start processing
+2025-06-21 20:32:03,355 - INFO - Chain [1] done processing
+2025-06-21 20:32:03,434 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.36%
+2025-06-21 20:32:03,434 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} com MAPE=3.27%
+2025-06-21 20:32:03,465 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/f4luvtys.json
+2025-06-21 20:32:03,521 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/vkv9t9t8.json
+2025-06-21 20:32:03,523 - DEBUG - idx 0
+2025-06-21 20:32:03,523 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:03,523 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=8731', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/f4luvtys.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/vkv9t9t8.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpqj148jnx/prophet_modeltw7u452e/prophet_model-20250621203203.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:03,523 - INFO - Chain [1] start processing
+2025-06-21 20:32:03,877 - INFO - Chain [1] done processing
+2025-06-21 20:32:03,879 - ERROR - Erro durante o treinamento: name 'params' is not defined
+2025-06-21 20:32:45,889 - INFO - Iniciando treinamento para 2025-06-21 20:32:45
+2025-06-21 20:32:45,931 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/tlecg9p4.json
+2025-06-21 20:32:45,955 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/ocwznwsz.json
+2025-06-21 20:32:45,956 - DEBUG - idx 0
+2025-06-21 20:32:45,956 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:45,956 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=8633', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/tlecg9p4.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/ocwznwsz.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/prophet_model5g0abcdv/prophet_model-20250621203245.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:45,956 - INFO - Chain [1] start processing
+2025-06-21 20:32:46,304 - INFO - Chain [1] done processing
+2025-06-21 20:32:46,417 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.73%
+2025-06-21 20:32:46,454 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/7sp5lr3o.json
+2025-06-21 20:32:46,489 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/umbl3zm4.json
+2025-06-21 20:32:46,490 - DEBUG - idx 0
+2025-06-21 20:32:46,490 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:46,490 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=78228', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/7sp5lr3o.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/umbl3zm4.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/prophet_model0yiu89mq/prophet_model-20250621203246.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:46,490 - INFO - Chain [1] start processing
+2025-06-21 20:32:46,757 - INFO - Chain [1] done processing
+2025-06-21 20:32:46,872 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 3.27%
+2025-06-21 20:32:46,903 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/8cij2lgv.json
+2025-06-21 20:32:46,940 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/67d9yu10.json
+2025-06-21 20:32:46,941 - DEBUG - idx 0
+2025-06-21 20:32:46,941 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:46,941 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=13950', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/8cij2lgv.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/67d9yu10.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/prophet_model0vmw1zxz/prophet_model-20250621203246.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:46,941 - INFO - Chain [1] start processing
+2025-06-21 20:32:47,272 - INFO - Chain [1] done processing
+2025-06-21 20:32:47,387 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.36%
+2025-06-21 20:32:47,387 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} com MAPE=3.27%
+2025-06-21 20:32:47,414 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/iwcfrqgs.json
+2025-06-21 20:32:47,463 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/dsrah4ss.json
+2025-06-21 20:32:47,465 - DEBUG - idx 0
+2025-06-21 20:32:47,465 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:32:47,465 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=50870', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/iwcfrqgs.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/dsrah4ss.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfol_02ex/prophet_model0wfkesum/prophet_model-20250621203247.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:32:47,465 - INFO - Chain [1] start processing
+2025-06-21 20:32:47,872 - INFO - Chain [1] done processing
+2025-06-21 20:32:47,878 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 20:37:34,716 - INFO - Iniciando treinamento para 2025-06-21 20:37:34
+2025-06-21 20:37:34,764 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/y_5hewn_.json
+2025-06-21 20:37:34,789 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/1llhi4oi.json
+2025-06-21 20:37:34,790 - DEBUG - idx 0
+2025-06-21 20:37:34,790 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:37:34,790 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=70801', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/y_5hewn_.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/1llhi4oi.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/prophet_modelubnj1gk8/prophet_model-20250621203734.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:37:34,790 - INFO - Chain [1] start processing
+2025-06-21 20:37:35,203 - INFO - Chain [1] done processing
+2025-06-21 20:37:35,318 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.87%
+2025-06-21 20:37:35,340 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/ry76gwvo.json
+2025-06-21 20:37:35,379 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/kg7n6b8y.json
+2025-06-21 20:37:35,379 - DEBUG - idx 0
+2025-06-21 20:37:35,379 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:37:35,379 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=75157', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/ry76gwvo.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/kg7n6b8y.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/prophet_modelkrc5y5sp/prophet_model-20250621203735.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:37:35,379 - INFO - Chain [1] start processing
+2025-06-21 20:37:35,746 - INFO - Chain [1] done processing
+2025-06-21 20:37:35,851 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.15%
+2025-06-21 20:37:35,886 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/d6uor5g9.json
+2025-06-21 20:37:35,934 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/gm1h2c8j.json
+2025-06-21 20:37:35,935 - DEBUG - idx 0
+2025-06-21 20:37:35,935 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:37:35,935 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=60156', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/d6uor5g9.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/gm1h2c8j.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/prophet_modelxfi9ihjp/prophet_model-20250621203735.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:37:35,935 - INFO - Chain [1] start processing
+2025-06-21 20:37:36,209 - INFO - Chain [1] done processing
+2025-06-21 20:37:36,346 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.71%
+2025-06-21 20:37:36,346 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.87%
+2025-06-21 20:37:36,370 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/t7fako2q.json
+2025-06-21 20:37:36,431 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/ob4owu4_.json
+2025-06-21 20:37:36,432 - DEBUG - idx 0
+2025-06-21 20:37:36,432 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:37:36,432 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=30131', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/t7fako2q.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/ob4owu4_.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpxs4rrudp/prophet_model3yqs46ij/prophet_model-20250621203736.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:37:36,432 - INFO - Chain [1] start processing
+2025-06-21 20:37:36,779 - INFO - Chain [1] done processing
+2025-06-21 20:37:36,785 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 20:39:12,036 - INFO - Iniciando treinamento para 2025-06-21 20:39:12
+2025-06-21 20:39:12,089 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/q56eu6g7.json
+2025-06-21 20:39:12,114 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/kuxbwr4p.json
+2025-06-21 20:39:12,115 - DEBUG - idx 0
+2025-06-21 20:39:12,115 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:39:12,115 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=40918', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/q56eu6g7.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/kuxbwr4p.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/prophet_modelhc2c3bu5/prophet_model-20250621203912.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:39:12,115 - INFO - Chain [1] start processing
+2025-06-21 20:39:12,528 - INFO - Chain [1] done processing
+2025-06-21 20:39:12,624 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.88%
+2025-06-21 20:39:12,666 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/r5w56sjp.json
+2025-06-21 20:39:12,705 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/ruzvziej.json
+2025-06-21 20:39:12,706 - DEBUG - idx 0
+2025-06-21 20:39:12,706 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:39:12,706 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=11587', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/r5w56sjp.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/ruzvziej.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/prophet_modelak2vzn2m/prophet_model-20250621203912.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:39:12,706 - INFO - Chain [1] start processing
+2025-06-21 20:39:13,081 - INFO - Chain [1] done processing
+2025-06-21 20:39:13,164 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.16%
+2025-06-21 20:39:13,184 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/262iu34h.json
+2025-06-21 20:39:13,247 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/j06nt9vb.json
+2025-06-21 20:39:13,248 - DEBUG - idx 0
+2025-06-21 20:39:13,248 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:39:13,248 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=82234', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/262iu34h.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/j06nt9vb.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/prophet_modelwmp_41_i/prophet_model-20250621203913.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:39:13,248 - INFO - Chain [1] start processing
+2025-06-21 20:39:13,515 - INFO - Chain [1] done processing
+2025-06-21 20:39:13,616 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.71%
+2025-06-21 20:39:13,616 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.88%
+2025-06-21 20:39:13,644 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/c3hrm3a_.json
+2025-06-21 20:39:13,691 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/yd9dfyxu.json
+2025-06-21 20:39:13,692 - DEBUG - idx 0
+2025-06-21 20:39:13,692 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:39:13,692 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=96295', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/c3hrm3a_.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/yd9dfyxu.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpjp1mc3k6/prophet_modelz6mpx375/prophet_model-20250621203913.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:39:13,692 - INFO - Chain [1] start processing
+2025-06-21 20:39:14,041 - INFO - Chain [1] done processing
+2025-06-21 20:39:14,047 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 20:53:45,820 - INFO - Iniciando treinamento para 2025-06-21 20:53:45
+2025-06-21 20:53:45,875 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/31yn7fzq.json
+2025-06-21 20:53:45,899 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/0vnmw7bi.json
+2025-06-21 20:53:45,900 - DEBUG - idx 0
+2025-06-21 20:53:45,900 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:53:45,900 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=92217', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/31yn7fzq.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/0vnmw7bi.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/prophet_modeldj8_ev_6/prophet_model-20250621205345.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:53:45,900 - INFO - Chain [1] start processing
+2025-06-21 20:53:46,304 - INFO - Chain [1] done processing
+2025-06-21 20:53:46,382 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.88%
+2025-06-21 20:53:46,410 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/enwdpt7o.json
+2025-06-21 20:53:46,467 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/x9ekuhlq.json
+2025-06-21 20:53:46,468 - DEBUG - idx 0
+2025-06-21 20:53:46,468 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:53:46,468 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=80892', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/enwdpt7o.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/x9ekuhlq.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/prophet_modelvhohwqa5/prophet_model-20250621205346.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:53:46,468 - INFO - Chain [1] start processing
+2025-06-21 20:53:46,839 - INFO - Chain [1] done processing
+2025-06-21 20:53:46,937 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.16%
+2025-06-21 20:53:46,973 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/u59rsge5.json
+2025-06-21 20:53:47,015 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/yogj776g.json
+2025-06-21 20:53:47,015 - DEBUG - idx 0
+2025-06-21 20:53:47,015 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:53:47,015 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=24252', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/u59rsge5.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/yogj776g.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/prophet_model44emhu6k/prophet_model-20250621205347.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:53:47,016 - INFO - Chain [1] start processing
+2025-06-21 20:53:47,321 - INFO - Chain [1] done processing
+2025-06-21 20:53:47,398 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.71%
+2025-06-21 20:53:47,398 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.88%
+2025-06-21 20:53:47,414 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/rwtj4s6v.json
+2025-06-21 20:53:47,463 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/gqolo2df.json
+2025-06-21 20:53:47,466 - DEBUG - idx 0
+2025-06-21 20:53:47,466 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 20:53:47,466 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=85137', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/rwtj4s6v.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/gqolo2df.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp1ao23yid/prophet_modelwqegefke/prophet_model-20250621205347.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 20:53:47,466 - INFO - Chain [1] start processing
+2025-06-21 20:53:47,815 - INFO - Chain [1] done processing
+2025-06-21 20:53:47,820 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:13:23,276 - INFO - Iniciando treinamento para 2025-06-21 21:13:23
+2025-06-21 21:13:23,324 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/gbgyc9ja.json
+2025-06-21 21:13:23,349 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/pxiihm71.json
+2025-06-21 21:13:23,350 - DEBUG - idx 0
+2025-06-21 21:13:23,350 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:13:23,350 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=74889', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/gbgyc9ja.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/pxiihm71.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/prophet_modelkfsnclz9/prophet_model-20250621211323.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:13:23,350 - INFO - Chain [1] start processing
+2025-06-21 21:13:23,765 - INFO - Chain [1] done processing
+2025-06-21 21:13:23,840 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.88%
+2025-06-21 21:13:23,873 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/kgyx2plk.json
+2025-06-21 21:13:23,915 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/h9dgv6aa.json
+2025-06-21 21:13:23,916 - DEBUG - idx 0
+2025-06-21 21:13:23,916 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:13:23,916 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=12273', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/kgyx2plk.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/h9dgv6aa.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/prophet_model0ivihi3f/prophet_model-20250621211323.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:13:23,916 - INFO - Chain [1] start processing
+2025-06-21 21:13:24,293 - INFO - Chain [1] done processing
+2025-06-21 21:13:24,400 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.16%
+2025-06-21 21:13:24,431 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/uruhqlak.json
+2025-06-21 21:13:24,481 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/nutavj1t.json
+2025-06-21 21:13:24,482 - DEBUG - idx 0
+2025-06-21 21:13:24,482 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:13:24,482 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=95828', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/uruhqlak.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/nutavj1t.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/prophet_modelxp8ly1mc/prophet_model-20250621211324.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:13:24,482 - INFO - Chain [1] start processing
+2025-06-21 21:13:24,744 - INFO - Chain [1] done processing
+2025-06-21 21:13:24,822 - INFO - Grid params {'changepoint_prior_scale': 0.08, 'seasonality_prior_scale': 0.2} => MAPE 5.71%
+2025-06-21 21:13:24,822 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.88%
+2025-06-21 21:13:24,852 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/kx324z5q.json
+2025-06-21 21:13:24,914 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/op3ggsbw.json
+2025-06-21 21:13:24,915 - DEBUG - idx 0
+2025-06-21 21:13:24,915 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:13:24,941 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=20779', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/kx324z5q.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/op3ggsbw.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpe49a1skg/prophet_modelr0pvg8qx/prophet_model-20250621211324.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:13:24,943 - INFO - Chain [1] start processing
+2025-06-21 21:13:25,312 - INFO - Chain [1] done processing
+2025-06-21 21:13:25,318 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:13:25,671 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last180.png
+2025-06-21 21:17:44,364 - INFO - Iniciando treinamento para 2025-06-21 21:17:44
+2025-06-21 21:17:44,395 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/o6c6g96q.json
+2025-06-21 21:17:44,420 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/t1yq29_1.json
+2025-06-21 21:17:44,420 - DEBUG - idx 0
+2025-06-21 21:17:44,420 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:17:44,420 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=93220', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/o6c6g96q.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/t1yq29_1.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/prophet_modelqu32mn82/prophet_model-20250621211744.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:17:44,420 - INFO - Chain [1] start processing
+2025-06-21 21:17:44,716 - INFO - Chain [1] done processing
+2025-06-21 21:17:44,827 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.43%
+2025-06-21 21:17:44,856 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/4bt1zukr.json
+2025-06-21 21:17:44,906 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/8t85pugo.json
+2025-06-21 21:17:44,907 - DEBUG - idx 0
+2025-06-21 21:17:44,907 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:17:44,907 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26671', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/4bt1zukr.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/8t85pugo.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/prophet_model2a36bz60/prophet_model-20250621211744.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:17:44,907 - INFO - Chain [1] start processing
+2025-06-21 21:17:45,230 - INFO - Chain [1] done processing
+2025-06-21 21:17:45,342 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.24%
+2025-06-21 21:17:45,374 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/ltozolhq.json
+2025-06-21 21:17:45,412 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/t6_wukk6.json
+2025-06-21 21:17:45,413 - DEBUG - idx 0
+2025-06-21 21:17:45,413 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:17:45,413 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=70731', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/ltozolhq.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/t6_wukk6.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/prophet_modeltvlpg701/prophet_model-20250621211745.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:17:45,413 - INFO - Chain [1] start processing
+2025-06-21 21:17:45,750 - INFO - Chain [1] done processing
+2025-06-21 21:17:45,852 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 4.86%
+2025-06-21 21:17:45,898 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/3b1nrr2_.json
+2025-06-21 21:17:45,952 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/arz59d62.json
+2025-06-21 21:17:45,953 - DEBUG - idx 0
+2025-06-21 21:17:45,953 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:17:45,953 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=75619', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/3b1nrr2_.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/arz59d62.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/prophet_modellymkcsbi/prophet_model-20250621211745.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:17:45,953 - INFO - Chain [1] start processing
+2025-06-21 21:17:46,230 - INFO - Chain [1] done processing
+2025-06-21 21:17:46,351 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.56%
+2025-06-21 21:17:46,351 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.43%
+2025-06-21 21:17:46,372 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/zdtk1vu6.json
+2025-06-21 21:17:46,426 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/nbcxv470.json
+2025-06-21 21:17:46,427 - DEBUG - idx 0
+2025-06-21 21:17:46,427 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:17:46,427 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=97684', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/zdtk1vu6.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/nbcxv470.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp0kpag015/prophet_modeltpaeinc3/prophet_model-20250621211746.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:17:46,427 - INFO - Chain [1] start processing
+2025-06-21 21:17:46,839 - INFO - Chain [1] done processing
+2025-06-21 21:17:46,845 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:17:47,212 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last180.png
+2025-06-21 21:20:09,711 - INFO - Iniciando treinamento para 2025-06-21 21:20:09
+2025-06-21 21:20:09,742 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/7dw2i3ua.json
+2025-06-21 21:20:09,767 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/s_q8ls_r.json
+2025-06-21 21:20:09,767 - DEBUG - idx 0
+2025-06-21 21:20:09,767 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:20:09,767 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=71411', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/7dw2i3ua.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/s_q8ls_r.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/prophet_modelgh4crrmz/prophet_model-20250621212009.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:20:09,767 - INFO - Chain [1] start processing
+2025-06-21 21:20:10,061 - INFO - Chain [1] done processing
+2025-06-21 21:20:10,148 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.43%
+2025-06-21 21:20:10,188 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/hv8v_jq3.json
+2025-06-21 21:20:10,247 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/q0f0es25.json
+2025-06-21 21:20:10,247 - DEBUG - idx 0
+2025-06-21 21:20:10,247 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:20:10,247 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=43562', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/hv8v_jq3.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/q0f0es25.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/prophet_modelz7u7z8sj/prophet_model-20250621212010.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:20:10,247 - INFO - Chain [1] start processing
+2025-06-21 21:20:10,568 - INFO - Chain [1] done processing
+2025-06-21 21:20:10,663 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.24%
+2025-06-21 21:20:10,702 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/f1_t15en.json
+2025-06-21 21:20:10,747 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/_2m27xwn.json
+2025-06-21 21:20:10,748 - DEBUG - idx 0
+2025-06-21 21:20:10,748 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:20:10,748 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=1990', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/f1_t15en.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/_2m27xwn.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/prophet_model7prodnyb/prophet_model-20250621212010.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:20:10,748 - INFO - Chain [1] start processing
+2025-06-21 21:20:11,081 - INFO - Chain [1] done processing
+2025-06-21 21:20:11,196 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 4.86%
+2025-06-21 21:20:11,227 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/d5tvnkbx.json
+2025-06-21 21:20:11,270 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/fh63f121.json
+2025-06-21 21:20:11,271 - DEBUG - idx 0
+2025-06-21 21:20:11,271 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:20:11,271 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=54524', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/d5tvnkbx.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/fh63f121.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/prophet_modeln92wwejw/prophet_model-20250621212011.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:20:11,271 - INFO - Chain [1] start processing
+2025-06-21 21:20:11,541 - INFO - Chain [1] done processing
+2025-06-21 21:20:11,652 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.56%
+2025-06-21 21:20:11,652 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.43%
+2025-06-21 21:20:11,683 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/sdqzvwhw.json
+2025-06-21 21:20:11,726 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/_rk_l5av.json
+2025-06-21 21:20:11,726 - DEBUG - idx 0
+2025-06-21 21:20:11,726 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:20:11,727 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=47772', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/sdqzvwhw.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/_rk_l5av.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpetgmax5i/prophet_modelyv0_qb_f/prophet_model-20250621212011.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:20:11,727 - INFO - Chain [1] start processing
+2025-06-21 21:20:12,136 - INFO - Chain [1] done processing
+2025-06-21 21:20:12,142 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:20:12,382 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last30.png
+2025-06-21 21:21:39,119 - INFO - Iniciando treinamento para 2025-06-21 21:21:39
+2025-06-21 21:21:39,152 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/isdy159e.json
+2025-06-21 21:21:39,177 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/bufaessm.json
+2025-06-21 21:21:39,177 - DEBUG - idx 0
+2025-06-21 21:21:39,177 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:21:39,177 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=27259', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/isdy159e.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/bufaessm.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/prophet_modelyasg6br5/prophet_model-20250621212139.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:21:39,177 - INFO - Chain [1] start processing
+2025-06-21 21:21:39,378 - INFO - Chain [1] done processing
+2025-06-21 21:21:39,491 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.99%
+2025-06-21 21:21:39,516 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/16hlq5hn.json
+2025-06-21 21:21:39,568 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/f65tp4zo.json
+2025-06-21 21:21:39,569 - DEBUG - idx 0
+2025-06-21 21:21:39,569 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:21:39,569 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=22624', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/16hlq5hn.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/f65tp4zo.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/prophet_modelzwpz377s/prophet_model-20250621212139.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:21:39,569 - INFO - Chain [1] start processing
+2025-06-21 21:21:39,912 - INFO - Chain [1] done processing
+2025-06-21 21:21:40,062 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 3.10%
+2025-06-21 21:21:40,095 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/dwd4cx9i.json
+2025-06-21 21:21:40,136 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/dz9ofuz7.json
+2025-06-21 21:21:40,136 - DEBUG - idx 0
+2025-06-21 21:21:40,136 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:21:40,136 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=69563', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/dwd4cx9i.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/dz9ofuz7.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/prophet_modele_59jwc_/prophet_model-20250621212140.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:21:40,136 - INFO - Chain [1] start processing
+2025-06-21 21:21:40,416 - INFO - Chain [1] done processing
+2025-06-21 21:21:40,525 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 5.12%
+2025-06-21 21:21:40,556 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/vre_ep41.json
+2025-06-21 21:21:40,641 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/k62rw9cx.json
+2025-06-21 21:21:40,642 - DEBUG - idx 0
+2025-06-21 21:21:40,642 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:21:40,642 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=10360', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/vre_ep41.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/k62rw9cx.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/prophet_modelq3qwzzhh/prophet_model-20250621212140.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:21:40,642 - INFO - Chain [1] start processing
+2025-06-21 21:21:40,986 - INFO - Chain [1] done processing
+2025-06-21 21:21:41,090 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.52%
+2025-06-21 21:21:41,090 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} com MAPE=3.10%
+2025-06-21 21:21:41,122 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/erb5oz0c.json
+2025-06-21 21:21:41,172 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/0u0jxa1x.json
+2025-06-21 21:21:41,173 - DEBUG - idx 0
+2025-06-21 21:21:41,173 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:21:41,173 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=22769', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/erb5oz0c.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/0u0jxa1x.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp6u8ukxqb/prophet_modelr1rokmx9/prophet_model-20250621212141.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:21:41,173 - INFO - Chain [1] start processing
+2025-06-21 21:21:41,634 - INFO - Chain [1] done processing
+2025-06-21 21:21:41,640 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:21:41,909 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last30.png
+2025-06-21 21:22:49,895 - INFO - Iniciando treinamento para 2025-06-21 21:22:49
+2025-06-21 21:22:49,926 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/djy1523h.json
+2025-06-21 21:22:49,950 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/him7ing8.json
+2025-06-21 21:22:49,950 - DEBUG - idx 0
+2025-06-21 21:22:49,950 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:22:49,950 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=31267', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/djy1523h.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/him7ing8.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/prophet_modelrt6aswex/prophet_model-20250621212249.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:22:49,950 - INFO - Chain [1] start processing
+2025-06-21 21:22:50,150 - INFO - Chain [1] done processing
+2025-06-21 21:22:50,263 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.99%
+2025-06-21 21:22:50,295 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/0onhwg15.json
+2025-06-21 21:22:50,336 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/7dd8isjz.json
+2025-06-21 21:22:50,337 - DEBUG - idx 0
+2025-06-21 21:22:50,337 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:22:50,337 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=59904', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/0onhwg15.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/7dd8isjz.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/prophet_modelgydnefm4/prophet_model-20250621212250.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:22:50,337 - INFO - Chain [1] start processing
+2025-06-21 21:22:50,687 - INFO - Chain [1] done processing
+2025-06-21 21:22:50,774 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 3.10%
+2025-06-21 21:22:50,795 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/dsk7fg3w.json
+2025-06-21 21:22:50,842 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/822xw3sa.json
+2025-06-21 21:22:50,843 - DEBUG - idx 0
+2025-06-21 21:22:50,843 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:22:50,843 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=47438', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/dsk7fg3w.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/822xw3sa.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/prophet_modelu0woq8uv/prophet_model-20250621212250.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:22:50,843 - INFO - Chain [1] start processing
+2025-06-21 21:22:51,123 - INFO - Chain [1] done processing
+2025-06-21 21:22:51,222 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 5.12%
+2025-06-21 21:22:51,260 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/pzl093m5.json
+2025-06-21 21:22:51,306 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/61zf498n.json
+2025-06-21 21:22:51,307 - DEBUG - idx 0
+2025-06-21 21:22:51,307 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:22:51,307 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=77739', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/pzl093m5.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/61zf498n.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmp703n386h/prophet_modelfm0tnq9p/prophet_model-20250621212251.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:22:51,307 - INFO - Chain [1] start processing
+2025-06-21 21:22:51,643 - INFO - Chain [1] done processing
+2025-06-21 21:22:51,750 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.52%
+2025-06-21 21:22:51,750 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} com MAPE=3.10%
+2025-06-21 21:22:51,750 - ERROR - Erro durante o treinamento: prophet.forecaster.Prophet() got multiple values for keyword argument 'daily_seasonality'
+2025-06-21 21:23:15,734 - INFO - Iniciando treinamento para 2025-06-21 21:23:15
+2025-06-21 21:23:15,766 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/l8z68zhx.json
+2025-06-21 21:23:15,792 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/xxmy6qiq.json
+2025-06-21 21:23:15,792 - DEBUG - idx 0
+2025-06-21 21:23:15,792 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:23:15,792 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=16365', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/l8z68zhx.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/xxmy6qiq.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/prophet_model4dex6f6h/prophet_model-20250621212315.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:23:15,792 - INFO - Chain [1] start processing
+2025-06-21 21:23:15,994 - INFO - Chain [1] done processing
+2025-06-21 21:23:16,107 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.99%
+2025-06-21 21:23:16,158 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/pjrkzv7j.json
+2025-06-21 21:23:16,215 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/l4lyikys.json
+2025-06-21 21:23:16,216 - DEBUG - idx 0
+2025-06-21 21:23:16,216 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:23:16,216 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=9368', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/pjrkzv7j.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/l4lyikys.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/prophet_modelzr4sv1gx/prophet_model-20250621212316.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:23:16,216 - INFO - Chain [1] start processing
+2025-06-21 21:23:16,566 - INFO - Chain [1] done processing
+2025-06-21 21:23:16,668 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 3.10%
+2025-06-21 21:23:16,698 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/mrb3d4vt.json
+2025-06-21 21:23:16,767 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/yvyzbzn3.json
+2025-06-21 21:23:16,768 - DEBUG - idx 0
+2025-06-21 21:23:16,768 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:23:16,768 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=89636', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/mrb3d4vt.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/yvyzbzn3.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/prophet_modelenh_axn2/prophet_model-20250621212316.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:23:16,768 - INFO - Chain [1] start processing
+2025-06-21 21:23:17,055 - INFO - Chain [1] done processing
+2025-06-21 21:23:17,168 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 5.12%
+2025-06-21 21:23:17,214 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/7dib8nzb.json
+2025-06-21 21:23:17,273 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/wuik6ise.json
+2025-06-21 21:23:17,274 - DEBUG - idx 0
+2025-06-21 21:23:17,274 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:23:17,274 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=59471', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/7dib8nzb.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/wuik6ise.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/prophet_modelrps3j4mq/prophet_model-20250621212317.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:23:17,274 - INFO - Chain [1] start processing
+2025-06-21 21:23:17,615 - INFO - Chain [1] done processing
+2025-06-21 21:23:17,726 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.52%
+2025-06-21 21:23:17,726 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} com MAPE=3.10%
+2025-06-21 21:23:17,748 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/yxym91vb.json
+2025-06-21 21:23:17,819 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/niwnphtz.json
+2025-06-21 21:23:17,819 - DEBUG - idx 0
+2025-06-21 21:23:17,819 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:23:17,820 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=74167', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/yxym91vb.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/niwnphtz.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpfb245l9b/prophet_model6wi2nq5h/prophet_model-20250621212317.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:23:17,820 - INFO - Chain [1] start processing
+2025-06-21 21:23:18,269 - INFO - Chain [1] done processing
+2025-06-21 21:23:18,275 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:23:18,511 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last30.png
+2025-06-21 21:24:48,845 - INFO - Iniciando treinamento para 2025-06-21 21:24:48
+2025-06-21 21:24:48,878 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/5382uwtp.json
+2025-06-21 21:24:48,903 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/1ibbw1ke.json
+2025-06-21 21:24:48,903 - DEBUG - idx 0
+2025-06-21 21:24:48,903 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:24:48,904 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=73434', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/5382uwtp.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/1ibbw1ke.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/prophet_modelwidvlem5/prophet_model-20250621212448.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:24:48,904 - INFO - Chain [1] start processing
+2025-06-21 21:24:49,198 - INFO - Chain [1] done processing
+2025-06-21 21:24:49,289 - INFO - Grid params {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} => MAPE 3.43%
+2025-06-21 21:24:49,322 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/lfbklcnt.json
+2025-06-21 21:24:49,375 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/icuvaq83.json
+2025-06-21 21:24:49,375 - DEBUG - idx 0
+2025-06-21 21:24:49,376 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:24:49,376 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=9908', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/lfbklcnt.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/icuvaq83.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/prophet_modelc6fbu5ep/prophet_model-20250621212449.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:24:49,376 - INFO - Chain [1] start processing
+2025-06-21 21:24:49,702 - INFO - Chain [1] done processing
+2025-06-21 21:24:49,806 - INFO - Grid params {'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1} => MAPE 4.24%
+2025-06-21 21:24:49,838 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/bxftrdcp.json
+2025-06-21 21:24:49,875 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/8alg1rmv.json
+2025-06-21 21:24:49,875 - DEBUG - idx 0
+2025-06-21 21:24:49,875 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:24:49,875 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=61399', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/bxftrdcp.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/8alg1rmv.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/prophet_modelfae6h5bb/prophet_model-20250621212449.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:24:49,875 - INFO - Chain [1] start processing
+2025-06-21 21:24:50,210 - INFO - Chain [1] done processing
+2025-06-21 21:24:50,299 - INFO - Grid params {'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 0.2} => MAPE 4.86%
+2025-06-21 21:24:50,324 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/118y7dfe.json
+2025-06-21 21:24:50,375 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/a_ph6bca.json
+2025-06-21 21:24:50,375 - DEBUG - idx 0
+2025-06-21 21:24:50,375 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:24:50,375 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=58516', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/118y7dfe.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/a_ph6bca.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/prophet_modelsckox5y1/prophet_model-20250621212450.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:24:50,375 - INFO - Chain [1] start processing
+2025-06-21 21:24:50,652 - INFO - Chain [1] done processing
+2025-06-21 21:24:50,801 - INFO - Grid params {'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 0.2} => MAPE 3.56%
+2025-06-21 21:24:50,801 - INFO - Melhores params encontrados: {'changepoint_prior_scale': 0.03, 'seasonality_prior_scale': 0.1} com MAPE=3.43%
+2025-06-21 21:24:50,842 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/j_v7pp1p.json
+2025-06-21 21:24:50,887 - DEBUG - input tempfile: /var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/4l_8rlnf.json
+2025-06-21 21:24:50,887 - DEBUG - idx 0
+2025-06-21 21:24:50,888 - DEBUG - running CmdStan, num_threads: None
+2025-06-21 21:24:50,888 - DEBUG - CmdStan args: ['/Users/mauriciobezerra/CascadeProjects/stock_prediction/venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=89635', 'data', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/j_v7pp1p.json', 'init=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/4l_8rlnf.json', 'output', 'file=/var/folders/j9/wnc9dbns3dx0b3ssdfk78r0r0000gn/T/tmpanqv4ued/prophet_model2pn3f5dc/prophet_model-20250621212450.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-06-21 21:24:50,888 - INFO - Chain [1] start processing
+2025-06-21 21:24:51,308 - INFO - Chain [1] done processing
+2025-06-21 21:24:51,315 - INFO - Modelo salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/prophet_model.joblib
+2025-06-21 21:24:51,625 - INFO - Gráfico de performance salvo em: /Users/mauriciobezerra/CascadeProjects/stock_prediction/model/performance_last30.png

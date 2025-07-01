@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-06-22T00:25:34.676944",
+  "test_size": 30,
+  "mape": 1.8988,
+  "rmse": 3.6226,
+  "r2": -0.126,
+  "explanations": {
+    "mape": "MAPE (erro percentual médio) mostra que em média as previsões estão 1.9% distantes do real — quanto menor melhor; abaixo de 5% é considerado ótimo.",
+    "rmse": "RMSE mede o erro médio absoluto em dólares; números menores indicam previsões mais próximas.",
+    "r2": "R² indica quanta variabilidade o modelo explica; valores perto de 1 são bons. O valor atual (-0.13) é considerado ruim."
+  }
+}

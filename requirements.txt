@@ -1,0 +1,12 @@
+yfinance==0.2.31
+pandas==2.0.3
+scikit-learn==1.3.2
+joblib==1.3.2
+fastapi>=0.95.2
+uvicorn>=0.22.0
+python-multipart
+python-dotenv
+prophet==1.1.5
+prometheus-fastapi-instrumentator
+pytest>=7.0
+streamlit>=1.34.0
