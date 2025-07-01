@@ -126,11 +126,8 @@ Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
 ## 📜 Licença
 Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para mais informações.
 
-## 📧 Contato
-Seu Nome - seu.email@exemplo.com  
-Link do Projeto: [https://github.com/seuusuario/stock_prediction](https://github.com/seuusuario/stock_prediction)
 
-## Stock Prediction - Procter & Gamble (PG) Model
+## Stock Prediction
 
 ## 📊 Performance Metrics
 - **Validation MAPE**: 3.27%
