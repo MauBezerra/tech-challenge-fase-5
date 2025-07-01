@@ -1,4 +1,4 @@
-# Stock Price Prediction with Facebook Prophet
+# Stock Price Prediction - Tech Challenge Fase 5 FIAP
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
